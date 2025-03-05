@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoSecured - AI-Powered Cryptocurrency Security</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #8A2BE2;
+            --primary-dark: #6B1FA8;
+            --secondary: #1A1A1A;
+            --text: #FFFFFF;
+            --text-secondary: #B3B3B3;
+            --gradient: linear-gradient(135deg, var(--primary) 0%, #4A0082 100%);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--secondary);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: var(--gradient);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .hero {
+            padding: 180px 0 100px;
+            text-align: center;
+            background: var(--secondary);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            font-size: 20px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: var(--gradient);
+            color: var(--text);
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: transform 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        .features {
+            padding: 100px 0;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        .feature-card {
+            background: rgba(138, 43, 226, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        .feature-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        .feature-card p {
+            color: var(--text-secondary);
+        }
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .blog-preview {
+            padding: 100px 0;
+            background: var(--secondary);
+        }
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        footer {
+            background: var(--secondary);
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            .hero p {
+                font-size: 18px;
+            }
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">CryptoSecured</a>
+            <div class="nav-links">
+                <a href="/blog">Blog</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Secure Your Crypto Assets with AI-Powered Protection</h1>
+            <p>Advanced security solutions powered by artificial intelligence to protect your cryptocurrency investments from theft, fraud, and sophisticated attacks.</p>
+            <a href="https://cryptosecuredapp.github.io" class="cta-button">Launch App</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">AI-Powered Security Features</h2>
+            <p class="section-subtitle">Our cutting-edge AI technology provides comprehensive protection against all major cryptocurrency threats</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Smart Seed Phrase Protection</h3>
+                    <p>AI-powered encryption and secure storage for your seed phrases, with continuous monitoring for potential breaches and unauthorized access attempts.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Real-time Phishing Detection</h3>
+                    <p>Advanced AI algorithms scan and identify malicious websites and applications in real-time, protecting you from sophisticated phishing attempts.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Social Engineering Shield</h3>
+                    <p>AI-driven behavioral analysis to detect and prevent social engineering attacks, protecting you from fraudulent investment schemes and scams.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Transaction Analysis</h3>
+                    <p>Real-time AI monitoring of transactions to detect suspicious patterns and prevent unauthorized transfers before they occur.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Smart Contract Verification</h3>
+                    <p>AI-powered analysis of smart contracts to identify potential vulnerabilities and protect against contract-based attacks.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>24/7 AI Monitoring</h3>
+                    <p>Continuous AI surveillance of your digital assets with instant alerts for any suspicious activities or potential security threats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>© 2024 CryptoSecured. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

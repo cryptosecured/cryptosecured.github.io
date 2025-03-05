@@ -1,0 +1,19 @@
+title: CryptoSecured
+description: AI-Powered Cryptocurrency Security
+baseurl: ""
+url: "https://cryptosecured.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "CryptoSecured Team"
